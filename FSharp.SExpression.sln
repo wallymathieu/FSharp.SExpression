@@ -1,0 +1,39 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7031D95D-114B-4870-A5BE-8CB4FBDEFEAB}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "Tests", "tests\Tests\Tests.fsproj", "{C9DCE387-E468-4360-B0EE-C861D7763157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|x64.ActiveCfg = Debug|x64
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|x64.Build.0 = Debug|x64
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|x86.ActiveCfg = Debug|x86
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Debug|x86.Build.0 = Debug|x86
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|x64.ActiveCfg = Release|x64
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|x64.Build.0 = Release|x64
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|x86.ActiveCfg = Release|x86
+		{C9DCE387-E468-4360-B0EE-C861D7763157}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9DCE387-E468-4360-B0EE-C861D7763157} = {7031D95D-114B-4870-A5BE-8CB4FBDEFEAB}
+	EndGlobalSection
+EndGlobal
