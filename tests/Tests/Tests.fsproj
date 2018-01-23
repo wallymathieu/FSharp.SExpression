@@ -4,8 +4,8 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\Library.fs">
-      <Link>Library.fs</Link>
+    <Compile Include="..\..\SExpression.fs">
+      <Link>SExpression.fs</Link>
     </Compile>
     <Compile Include="Tests.fs" />
     <Compile Include="Program.fs" />
