@@ -93,3 +93,8 @@ let rec print = function
 
 let printList parsed=
     parsed |> List.map print |> String.concat "\n"
+
+/// Signature for serializer module 
+type Serializer<'T> = 
+    abstract member serialize: 'T -> Expression
+    abstract member deSerialize: Expression -> 'T option

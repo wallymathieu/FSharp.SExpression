@@ -30,7 +30,6 @@ type Qux =
       |Tessera of Baz
   
 module internal Z=
-
   module Foo=
    let serialize (this:Foo)= 
       E.List [ 
